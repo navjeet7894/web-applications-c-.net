@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "assignmentSQL", "assignmentSQL\assignmentSQL.csproj", "{51C44D55-5C80-4F5B-A118-21360793C8ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51C44D55-5C80-4F5B-A118-21360793C8ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C44D55-5C80-4F5B-A118-21360793C8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C44D55-5C80-4F5B-A118-21360793C8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C44D55-5C80-4F5B-A118-21360793C8ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E563C587-E35A-44AD-B7A0-41EB2D4E2200}
+	EndGlobalSection
+EndGlobal

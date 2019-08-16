@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<GridLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/gridLayout1"
+		android:layout_marginRight="155.5dp"
+	android:orientation="vertical">
+		<TextView
+			android:text="Qualification"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/textView1" />
+		<RadioGroup
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/radioGroup1">
+			<GridLayout
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/gridLayout2">
+				<RadioButton
+					android:checked="true"
+					android:text="Phd"
+					android:id="@+id/radioButton1" />
+				<RadioButton
+					android:text="masters"
+					android:id="@+id/radioButton2" />
+				<RadioButton
+					android:text="bachelors"
+					android:id="@+id/radioButton3" />
+				<GridLayout
+					android:minWidth="25px"
+					android:minHeight="25px"
+					android:id="@+id/gridLayout3" />
+			</GridLayout>
+		</RadioGroup>
+		<GridLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/gridLayout4" >
+			<TextView
+				android:text="full name"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:id="@+id/textView2" />
+			<EditText 
+				android:inputType="text"
+				android:id="@+id/editText1"/>
+			<TextView
+				android:text="Major"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:id="@+id/textView3" />
+			<EditText 
+				android:inputType="text"
+				android:id="@+id/editText2"/>
+			<TextView
+				android:text="years of experience"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:id="@+id/textView4" />
+			<EditText 
+				android:inputType="text"
+				android:id="@+id/editText3"/>
+			<TextView
+				android:text="languages"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:id="@+id/textView5" />
+			<Button
+				android:text="Submit"
+				android:id="@+id/button1" />
+		</GridLayout>
+	</GridLayout>
+	
+</RelativeLayout>
